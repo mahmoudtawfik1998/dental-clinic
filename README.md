@@ -30,16 +30,16 @@ This system allows patients to book appointments with doctors based on availabil
 ## 📸 Screenshots
 
 ### Home Page
-![Home](screenshots/home.png)
+![Home](screenshots/masterPage.png)
 
 ### Doctors List
-![Doctors](screenshots/doctors.png)
+![Doctors](screenshots/master3.png)
 
 ### Booking Page
-![Booking](screenshots/booking.png)
+![Booking](screenshots/admindashboard2.png)
 
 ### Dashboard
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](screenshots/admindashboard.png)
 
 ---
 
