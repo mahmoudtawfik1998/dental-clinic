@@ -1,75 +1,66 @@
-<div align="center">
+# Dental Clinic Booking System
 
-# 🦷 Dental Clinic Management System
+A complete dental clinic management and appointment booking system built with Laravel.
 
-<img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
-<img src="https://img.shields.io/badge/Blade-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
-<img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" />
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-
-A web application for managing a dental clinic with **3 doctors**, built with Laravel and Blade templates.
-
-</div>
+This system allows patients to book appointments with doctors based on availability, working days, and schedules.
 
 ---
 
-## Features
+## 🚀 Features
 
-**Patients**
-- Register and log in
-- View available doctors and their schedules
-- Book an appointment
-
-**Admin**
-- Secure admin dashboard
-- Manage doctors and their schedules
-- View, edit, and delete appointments
+- Patient appointment booking system
+- Doctor management (Add, edit, delete)
+- Doctor schedules and working days
+- Availability-based booking system
+- Admin dashboard for managing appointments
+- Authentication system (Login / Register)
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
-| Layer | Technology |
-|-------|-----------|
-| Framework | Laravel 12 |
-| Templating | Blade |
-| Styling | Bootstrap 5 |
-| Database | MySQL |
-| Auth | Laravel Breeze / Auth |
+- PHP
+- Laravel
+- MySQL
+- Blade Template Engine
+- Bootstrap
 
 ---
 
-## Getting Started
+## 📸 Screenshots
+
+### Home Page
+![Home](screenshots/home.png)
+
+### Doctors List
+![Doctors](screenshots/doctors.png)
+
+### Booking Page
+![Booking](screenshots/booking.png)
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+---
+
+## ⚙️ Installation
 
 ```bash
-# Clone & install
 git clone https://github.com/mahmoudtawfik1998/dental-clinic.git
 cd dental-clinic
 composer install
-
-# Setup environment
 cp .env.example .env
 php artisan key:generate
-# → set DB credentials in .env
-
-# Run migrations
-php artisan migrate --seed
-
-# Start the server
+php artisan migrate
 php artisan serve
-```
 
----
 
-## Demo Credentials
+📌 Project Highlights
+Implemented real-world booking logic with doctor availability
+Designed a system to prevent double booking
+Built dynamic scheduling system for doctors
+📬 Contact
 
-| Role | Email | Password |
-|------|-------|----------|
-| Admin | admin@clinic.com | password |
-| Patient | patient@test.com | password |
-
----
-
-## License
-
-[MIT](LICENSE)
+Mahmoud Tawfik
+Laravel Backend Developer
+GitHub: https://github.com/mahmoudtawfik1998
